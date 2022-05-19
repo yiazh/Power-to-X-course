@@ -1,3 +1,3 @@
-# Power-to-X-course
+# Exercise 2
 
-I made some changes from website.
+1. Consider an off-grid wind/hydrogen system
