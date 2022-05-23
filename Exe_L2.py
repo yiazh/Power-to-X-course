@@ -27,7 +27,7 @@ class alkaline_ele():
         self.i = i
         self.I = i * A # Current
 
-    #-----------These two functions calculates the reversible voltage. You don't have to understand them--------
+    #-----------These two functions calculate the reversible voltage. You don't have to understand them--------
     def E_rev(self, p_H2O=10**(-0.645) * p_0):
         '''
         Reversible potential
@@ -77,6 +77,8 @@ if __name__ == '__main__':
     x = np.linspace(1, 10, 100)
     y = np.sin(x)
     plt.plot(x, y, label= 'sin(x)')
+    plt.ylabel('Sin(x)')
+    plt.xlabel('x')
     plt.legend()
     plt.show()
     pass
